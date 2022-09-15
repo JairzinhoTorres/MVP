@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestro trabajo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navegacion">
+            <h1 class="title">TROMBE</h1>
+            <ul>
+                <li>
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="servicios.html">Servicios</a>
+                </li>
+                <li>
+                    <a href="nuestroTrabajo.html">Nuestro Trabajo</a>
+                </li>
+                <li>
+                    <a href="sobreNosotros.html">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="noticias.html">Noticias</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="background-1">
+        <section class="contenedor">
+          <div class="izquierda">
+            <div class="parrafo">
+            <h2>Simulación energética en Honeybee (Grasshopper)</h2>
+            <p>
+              Este estudio se basó en crear cuatro simulaciones energéticas de una casa partiendo desde el modelo 3D y se analizaron los resultados, para lograr la mayor eficiencia energética en la residencia. Se generaron horarios de ocupación, equipamiento, iluminación, agua caliente, HVAC, entre otros.
+            </p>
+          </div>
+          </div>
+          <div class="derecha">
+            <img src="../imagenes/honeybee.png" alt="Honeybee"/>
+          <div class="izquierda">
+          </div>
+        </section>
+      </div>
+      <div class="background-honeybee">
+        <div class="titulo-honeybee">
+          <h2>¿QUE FUE LO QUE SE HIZO?</h2>
+        </div>
+        <div class="lista-honeybee">
+          <ul>
+            <li>- Elección de la casa (importación del modelo a Rhinoceros, creación de las zonas, volumetrías del modelo).</li>
+            <li>- Modelado energético (primeros cuartos en Honeybee, puertas y ventanas).</li>
+            <li>- Personalización del modelo energético (áreas en planta, personas, iluminación, agua caliente, equipamiento, tipo de construcción, ventilación natural).</li>
+            <li>- Simulación energética (Se realizaron cuatro simulaciones energéticas y se retomó la ubicación de las simulación mediante ASHRAE).</li>
+            <li>- Resultados de las simulaciones (visualización de la temperatura de la envolvente en los 4 escenarios y normalización de la visualización de temperaturas en la envolvente).</li>
+          </ul>
+        </div>
+        <section class="contenedor-logos">
+          <div class="logos">  
+            <img src="../imagenes/sketchup.png" alt="">
+          </div>
+          <div class="logos">  
+            <img src="../imagenes/rhino.png" alt="">
+          </div>
+          <div class="logos">
+            <img src="../imagenes/grasshopper.webp" alt="">
+          </div>
+          <div class="logos">
+            <img src="https://www.ladybug.tools/assets/img/honeybee-large.png" alt="">
+          </div>
+        </section>
+      </div>
+      <div class="background-honeybee-2">
+        <section class="contenedor-eleccion">
+          <div class="izquierda">
+            <div class="parrafo">
+            <h2>1 - ELECCIÓN DE LA CASA</h2>
+            <ul>
+              <li>- Desde el software "3D Warehouse" de "sketchUp", se descargó el modelo en tres dimensiones de una casa, y se importó al software de modelado "Rhino 7".</li>
+              <li>- Se limpió el modelo 3D para generar las volumetrías de los muros y puerta en Rhinoceros. Estas volumetrías son necesarias para que el simulador comprenda como está formada la casa y pueda realizar la simulación energética.</li>
+              <li>- Finalmente se importaron las volumetrías a Grasshopper.</li>
+            </ul>
+          </div>
+          </div>
+          <div class="derecha">
+            <img src="../imagenes/eleccion-casa.png" alt="Honeybee"/>
+          </div>
+        </section>
+      </div>
+      <div class="background-honeybee-2">
+        <section class="contenedor-modelado">
+          <div class="derecha">
+            <img src="../imagenes/honeybee2.png" alt="Honeybee"/>
+          </div>
+          <div class="izquierda">
+            <div class="parrafo">
+            <h2>2 - MODELADO ENERGÉTICO</h2>
+          
+            <ul>
+              <li>- Se generó la creación de los primeros cuartos en "Honeybee", y se visualizaron las etiquetas para nombrar a cada uno en "Rhino 7".</li>
+              <li>- Se generaron y se nombraron las puertas y ventanas en Honeybee.</li>
+              <li>- Se terminó de crear el primer modelo energético. Se crearon subsuperficies, adyacencias y se visualizó el modelo energético.</li>
+            </ul>
+          </div>
+          </div>
+        </section>
+      </div>
+      <div class="background-honeybee-2">
+        <section class="contenedor-personalizacion">
+          <div class="izquierda">
+            <div class="parrafo">
+            <h2>3 - PERSONALIZACIÓN DEL MODELO ENERGÉTICO</h2>
+            <ul>
+              <li>- Generación del tipo de programa y obtención de las áreas de nuestras zonas (o cuartos).</li>
+              <li>- Datos sobre los ocupantes: personas por área, agenda de ocupación, generación de plantillas de horario.</li>
+              <li>- Actividades metabólicas dentro del programa de personas, cálculo de superficie de piel, nivel de actividad (W/persona), agenda de actividad.</li>
+              <li>- Iluminación y agua caliente: método lumen de diseño de los sistemas de iluminación, obtención de número de luminarias en habitación, creación de componente personalizado para obtención de luminarias (método lumen). Agenda de watts por área, agenda de ocupación.</li>
+            </ul>
+          </div>
+          </div>
+          <div class="derecha">
+            <img src="../imagenes/enovolvente.png" alt="Honeybee"/>
+            <img src="../imagenes/cuartos.png" alt="">
+          </div>
+        </section>
+      </div>
+      <div class="background-honeybee-2">
+        <div class="titulo-resultados">
+          <h2>4 - ANÁLISIS DE RESULTADOS</h2>
+        </div>
+        <div class="lista-resultados">
+          <ul>
+            <li>- Visualización de las cuatro simulaciones energéticas para ver las temperaturas de la envolvente</li>
+            <li>- Normalización de las temperaturas para que los colores mantengan el mismo rango de temperaturas en las cuatro casas.</li>
+            <li>- Gráficas de los resultados energéticos de cada casa</li>
+            <li>- Este trabajo fue hecho en base a un curso guiado, brindado por la Arquitecta Isabel Méndez Garduño, estudiante de Doctorado en Ciencias de Ingeniería</li>
+          </ul>
+        </div>
+        <section class="contenedor-resultados">
+          <div class="resultado">  
+            <img src="../imagenes/durango.jpg" alt="">
+          </div>
+          <div class="resultado">  
+            <img src="../imagenes/cdmx.jpg" alt="">
+          </div>
+          <div class="resultado">
+            <img src="../imagenes/peñasco.jpg" alt="">
+          </div>
+          <div class="resultado">
+            <img src="../imagenes/merida.jpg" alt="">
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="final">
+        <p>&copy; 2022 || Trombe</p>
+        <ul>
+          <li>
+            <a href="https:facebook.com" target="_blank">
+              <img src="../imagenes/facebook-brands.svg" alt="facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="https:instagram.com" target="_blank">
+              <img src="../imagenes/instagram-brands.svg" alt="instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="https:twitter.com" target="_blank">
+              <img src="../imagenes/twitter-brands.svg" alt="twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="https:linkedin.com" target="_blank">
+              <img src="../imagenes/linkedin-brandsblanco.svg" alt="linkedin" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </body>
+  </html>
+  
